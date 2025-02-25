@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WololoWiki</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
@@ -58,10 +59,58 @@
 
 <section id="civilizaciones">
     <h2>Civilizaciones</h2>
+    <div class="civilizaciones-container">
+        <div class="civilizaciones-wrapper">
+            <div class="civilizacion-card">
+                <img src="C:\Users\XinXenxAn\Documents\proweb_LadingPage\src\bri.png" alt="Britons Logo" class="civilizacion-logo">
+                <h3>Ingleses</h3>
+                <p><strong>Unidad única:</strong> Longbowman</p>
+                <p><strong>Bonus:</strong></p>
+                <ul>
+                    <li>Town Centers cuestan -50% de madera al llegar a la Edad de los Castillos.</li>
+                    <li>Los arqueros a pie (excepto los Hostigadores) tienen +1 de alcance en la Edad de los Castillos y +1 en la Edad Imperial (total +2).</li>
+                </ul>
+            </div>
 
-<p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam alias cum illo, eius ab doloremque optio modi animi in, enim reprehenderit itaque nihil dignissimos. Sit officiis quas fugiat rerum aperiam.
-</p>
+            <div class="civilizacion-card">
+                <img src="C:\Users\XinXenxAn\Documents\proweb_LadingPage\src\Cum.png" alt="Franks Logo" class="civilizacion-logo">
+                <h3>Cumanos</h3>
+                <p><strong>Unidad única:</strong> Kipchab</p>
+                <p><strong>Bonus:</strong></p>
+                <ul>
+                    <li> Se puede construir un centro urbano adicional en la Edad Feudal</li>
+                    <li>Caballería: 5 % más rápida en cada edad (desde la Edad Feudal).</li>
+                </ul>
+            </div>
+
+
+            <div class="civilizacion-card">
+                <img src="C:\Users\XinXenxAn\Documents\proweb_LadingPage\src\Arme.png"  alt="Franks Logo" class="civilizacion-logo">
+                <h3>Armenios</h3>
+                <p><strong>Unidad única:</strong> Composite bowman</p>
+                <p><strong>Bonus:</strong></p>
+                <ul>
+                    <li> Las unidades no exclusivas del cuartel (excepto el hombre de armas) están disponibles una edad antes</li>
+                    <li>La primera iglesia fortificada recibe una reliquia gratuit</li>
+                </ul>
+            </div>
+
+            <div class="civilizacion-card">
+                <img src="C:\Users\XinXenxAn\Documents\proweb_LadingPage\src\Frank.png" alt="Franks Logo" class="civilizacion-logo">
+                <h3>Francos</h3>
+                <p><strong>Unidad única:</strong> Throwing Axeman</p>
+                <p><strong>Bonus:</strong></p>
+                <ul>
+                    <li>Los Castillos cuestan -25%.</li>
+                    <li>Las unidades de caballería tienen +20% de puntos de vida.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="carrusel-nav">
+        <button onclick="scrollCarousel(-1)">←</button>
+        <button onclick="scrollCarousel(1)">→</button>
+    </div>
 </section>
 
 <section id="modos-juego">
@@ -98,9 +147,6 @@
 </p>
 </section>
 
-
-
-
-
+<script src="Jav.js"></script>
 </body>
 </html>
